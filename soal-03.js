@@ -1,7 +1,7 @@
 function getAngkaTerbesarKedua(personName) {
   // validasi apakah data berupa array
   if (!Array.isArray(personName)) {
-    return "ERROR : Bukan termasuk array";
+    return "ERROR : Invalid data type";
   }
 
   const dataNumbers = personName.sort((a, b) => b - a);
